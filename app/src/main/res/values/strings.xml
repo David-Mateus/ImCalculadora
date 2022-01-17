@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">imcCalculadora</string>
+    <string name="button">button</string>
+    <string name="buttonn">Button</string>
+    <string name="Calcular">Calcular</string>
+    <string name="entrar">Entrar</string>
+    <string name="pessoas_treinando">Pessoas treinando</string>
+    <string name="altura">Altura/m</string>
+    <string name="peso">Peso/kg</string>
+    <string name="calcular2">Calcular</string>
+</resources>

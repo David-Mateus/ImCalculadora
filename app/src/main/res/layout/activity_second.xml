@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/secmain"
+    android:padding="45dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="268dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imc3" />
+
+    <EditText
+        android:id="@+id/editText_altura"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:drawableStart="@drawable/ic_height"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/altura"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <EditText
+        android:id="@+id/editText_altura_peso"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="7dp"
+        android:drawableStart="@drawable/ic_weight_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/peso"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/editText_altura"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_altura_peso"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <TextView
+
+        android:id="@+id/resultado"
+        android:layout_width="387dp"
+        android:layout_height="127dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
